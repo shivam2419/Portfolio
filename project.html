@@ -16,9 +16,17 @@
 <body>
   
   <div class="contain">
-     
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" >&times;</a>
+      <a href="aboutme.html">About</a>
+      <a href="index.html">Services</a>
+      <a href="project.html">Projects</a>
+      <a href="contact.html">Contact</a>
+  </div>
     <div class="block_header">
       <nav>
+        <span style="font-size:30px; margin-left: 5px;" onclick="openNav()" id="side_nav">&#9776;</span>
+        
           <div class="left_nav">
               <img src="user.png" alt="" id="logo">
               <h1><b>MyPort</b></h1>
@@ -165,6 +173,16 @@
     });
 
   </script>
+  <!-- SIDE NAV -->
+  <script>
+    function openNav() {
+        document.getElementById("mySidenav").style.width = "250px";
+    }
+
+    function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+    }
+</script>
 </body>
 
 </html>
