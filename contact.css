@@ -39,7 +39,7 @@
     margin-left: 50px;
   }
 
-.block_header span{
+  #side_nav{
     display: none;
 }
 @media screen and (max-height: 450px) {
@@ -251,6 +251,13 @@ color: white;
 background: #e35226;
 color: white;
 }
+/* Gmail */
+.fa-google {
+    background: linear-gradient(90deg,rgb(197, 0, 0), rgb(255, 196, 0), rgb(41, 123, 0), rgb(32, 57, 198));
+    /* -webkit-background-clip: text;
+    color: transparent; */
+    color: white;
+    }
 /* LinkedIn */
 .fa-linkedin {
 background: #001c8a;

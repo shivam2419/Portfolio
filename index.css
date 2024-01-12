@@ -38,7 +38,7 @@
     margin-left: 50px;
   }
 
-.block_header span{
+#side_nav{
     display: none;
 }
 @media screen and (max-height: 450px) {
@@ -258,7 +258,7 @@ color: white;
 }
 /* Instagram */
 .fa-instagram {
-background: #e35226;
+background: linear-gradient(#e32678,#db4804);
 color: white;
 }
 /* LinkedIn */
@@ -266,7 +266,13 @@ color: white;
 background: #001c8a;
 color: white;
 }
-
+/* Gmail */
+.fa-google {
+background: linear-gradient(90deg,rgb(197, 0, 0), rgb(255, 196, 0), rgb(41, 123, 0), rgb(32, 57, 198));
+/* -webkit-background-clip: text;
+color: transparent; */
+color: white;
+}
 .mi{
     display: flex;
     justify-content: space-evenly;
@@ -455,6 +461,7 @@ footer>p,footer>p>a{
     }
     .smi ul li{
         font-size: 12px;
+        margin-right: -2px;
     }
     .skills{
         display: block;
