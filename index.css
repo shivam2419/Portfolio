@@ -261,18 +261,24 @@ color: white;
 background: linear-gradient(#e32678,#db4804);
 color: white;
 }
+/* Gmail */
+.fa-google {
+    background: linear-gradient(90deg,rgb(197, 0, 0), rgb(255, 196, 0), rgb(41, 123, 0), rgb(32, 57, 198));
+    /* -webkit-background-clip: text;
+    color: transparent; */
+    color: white;
+}
+/* Github */
+.fa-github {
+background: #011645;
+color: white;
+}
 /* LinkedIn */
 .fa-linkedin {
 background: #001c8a;
 color: white;
 }
-/* Gmail */
-.fa-google {
-background: linear-gradient(90deg,rgb(197, 0, 0), rgb(255, 196, 0), rgb(41, 123, 0), rgb(32, 57, 198));
-/* -webkit-background-clip: text;
-color: transparent; */
-color: white;
-}
+
 .mi{
     display: flex;
     justify-content: space-evenly;

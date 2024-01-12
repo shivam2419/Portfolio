@@ -267,6 +267,11 @@ background: linear-gradient(90deg,rgb(197, 0, 0), rgb(255, 196, 0), rgb(41, 123,
 color: transparent; */
 color: white;
 }
+/* Github */
+.fa-github {
+    background: #011645;
+    color: white;
+    }
 /* LinkedIn */
 .fa-linkedin {
 background: #001c8a;
