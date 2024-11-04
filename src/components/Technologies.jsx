@@ -42,7 +42,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaPython className="text-7xl text-white" />
+                    <FaPython className="text-7xl text-blue-900" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(1.6)}
@@ -56,7 +56,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaLinux className="text-7xl text-black" />
+                    <FaLinux className="text-7xl text-white" />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(19)}
