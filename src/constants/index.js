@@ -1,7 +1,7 @@
-import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpg";
-import project3 from "../assets/projects/project-3.jpg";
-import project4 from "../assets/projects/project-4.jpg";
+import project1 from "../assets/projects/project-1.webp";
+import project2 from "../assets/projects/project-2.jpeg";
+import project3 from "../assets/projects/project-3.webp";
+import project4 from "../assets/projects/project-4.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technology like React, as well as back-end technologies like Django, MySQL, and SQlite. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -23,13 +23,15 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "Js", "Django", "SQLite3"],
+    link: "https://github.com/shivam2419/EWaste" ,
+    technologies: ["HTML", "CSS", "Js", "Django", "Sqlite", "Bootstrap"],
   },
   {
     title: "Attendence Management system Module",
     image: project2,
     description:
       "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+    link: "https://github.com/shivam2419/Attendance-management-system-" ,
     technologies: ["HTML", "CSS", "Js", "Pho","MySQL"],
   },
   {
@@ -37,6 +39,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
+      link: "https://github.com/shivam2419/Portfolio" ,
     technologies: ["HTML", "CSS", "React", "Bootstrap"],
   },
   {
@@ -44,6 +47,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+    link: "https://github.com/shivam2419/School" ,
     technologies: ["HTML", "CSS", "Django", "Js", "Sqlite"],
   },
 ];
