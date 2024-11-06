@@ -24,7 +24,7 @@ export const PROJECTS = [
     description:
       "A fully functional scrap management website with features like scrap pickup booking, educational content, user authentication, scrap classification using ML and lot more...",
     link: "https://github.com/shivam2419/EWaste" ,
-    technologies: ["HTML", "CSS", "Js", "Django", "Sqlite", "Bootstrap"],
+    technologies: ["Javascript", "Django", "API's", "ML"],
   },
   {
     title: "Attendence Management system Module",
@@ -32,7 +32,7 @@ export const PROJECTS = [
     description:
       "An application for managing attendance of students, with features such as user authentication, assignment, and attendance marking.",
     link: "https://github.com/shivam2419/Attendance-management-system-" ,
-    technologies: ["HTML", "CSS", "Js", "Pho","MySQL"],
+    technologies: ["Javascript", "Php","MySQL", "API's"],
   },
   {
     title: "Portfolio Website",
@@ -40,7 +40,7 @@ export const PROJECTS = [
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
       link: "https://github.com/shivam2419/Portfolio" ,
-    technologies: ["HTML", "CSS", "React", "Bootstrap"],
+    technologies: ["Tailwind CSS", "React", "Bootstrap"],
   },
   {
     title: "School Website",
@@ -48,7 +48,7 @@ export const PROJECTS = [
     description:
       "A platform which introduces school to users with features like student registration and an admin panel for modification in website content.",
     link: "https://github.com/shivam2419/School" ,
-    technologies: ["HTML", "CSS", "Django", "Js", "Sqlite"],
+    technologies: ["Django", "Javascript", "Sqlite", "API's"],
   },
 ];
 
