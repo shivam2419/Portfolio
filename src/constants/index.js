@@ -12,7 +12,7 @@ export const EXPERIENCES = [
     year: "July'22 - Sep'22",
     role: "Web Developer",
     company: "NSIC",
-    description: `Led a team in developing and maintaining web applications using JavaScript, React.js, and Node.js. Implemented RESTful APIs and integrated with MongoDB databases. Collaborated with stakeholders to define project requirements and timelines.`,
+    description: `Led a team in developing and maintaining web applications using Html, Css, JavaScript & Php. Implemented RESTful APIs and integrated with MySQL database. Collaborated with stakeholders to define project requirements and timelines.`,
     technologies: ["Javascript", "Php", "API's", "MySQL"],
   },
 ];
@@ -22,7 +22,7 @@ export const PROJECTS = [
     title: "Scrap Management System Module",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
+      "A fully functional scrap management website with features like scrap pickup booking, educational content, user authentication, scrap classification using ML and lot more...",
     link: "https://github.com/shivam2419/EWaste" ,
     technologies: ["HTML", "CSS", "Js", "Django", "Sqlite", "Bootstrap"],
   },
@@ -30,7 +30,7 @@ export const PROJECTS = [
     title: "Attendence Management system Module",
     image: project2,
     description:
-      "An application for managing tasks and projects, with features such as task creation, assignment, and progress tracking.",
+      "An application for managing attendance of students, with features such as user authentication, assignment, and attendance marking.",
     link: "https://github.com/shivam2419/Attendance-management-system-" ,
     technologies: ["HTML", "CSS", "Js", "Pho","MySQL"],
   },
@@ -46,7 +46,7 @@ export const PROJECTS = [
     title: "School Website",
     image: project4,
     description:
-      "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
+      "A platform which introduces school to users with features like student registration and an admin panel for modification in website content.",
     link: "https://github.com/shivam2419/School" ,
     technologies: ["HTML", "CSS", "Django", "Js", "Sqlite"],
   },
