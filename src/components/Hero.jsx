@@ -1,6 +1,7 @@
 import {HERO_CONTENT} from "../constants";
 import profilePic from "../assets/ShivamSharmaprofile.png";
 import { motion } from "framer-motion"
+import profile from "../assets/resumeicon.png"
 import "../style/Hero.css"
 const container = (delay) => ({
   hidden : {x : -100, opacity: 0},
@@ -46,6 +47,23 @@ const Hero = () => {
             </div>
             </div>
         </div>
+        <div className="fixed bottom-4 right-4 z-50 group">
+            <a
+              href="https://drive.google.com/file/d/1nZrcsA1YE01Qk6-7W9NllUCu12-mTTsJ/view?usp=sharing"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                src={profile}
+                alt="Profile"
+                className="h-16 w-16 rounded-full border-2 border-gray-300 shadow-lg"
+              />
+              <div className="absolute bottom-20 right-0 mb-2 hidden group-hover:block bg-gray-800 text-white text-xs rounded py-1 px-2">
+                Get Resume
+              </div>
+            </a>
+          </div>
+
     </div>
   )
 }
