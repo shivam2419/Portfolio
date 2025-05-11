@@ -1,4 +1,4 @@
-import project1 from "../assets/projects/project-1.webp";
+import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.jpeg";
@@ -23,7 +23,7 @@ export const PROJECTS = [
     image: project1,
     description:
       "A fully functional scrap management website with features like scrap pickup booking, educational content, user authentication, scrap classification using ML and lot more...",
-    link: "https://github.com/shivam2419/EWaste" ,
+    link: "https://scrapbridge.vercel.app/" ,
     technologies: ["Javascript", "Django", "API's", "ML"],
   },
   {
@@ -39,7 +39,7 @@ export const PROJECTS = [
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
-      link: "https://github.com/shivam2419/Portfolio" ,
+      link: "http://myportfolio-navy-six-65.vercel.app/" ,
     technologies: ["Tailwind CSS", "React", "Bootstrap"],
   },
   {
@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: project4,
     description:
       "A platform which introduces school to users with features like student registration and an admin panel for modification in website content.",
-    link: "https://github.com/shivam2419/School" ,
+    link: "https://shivam2419.pythonanywhere.com/" ,
     technologies: ["Django", "Javascript", "Sqlite", "API's"],
   },
 ];

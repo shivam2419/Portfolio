@@ -1,11 +1,10 @@
 import { RiReactjsLine } from "react-icons/ri";
-import { SiMongodb } from "react-icons/si";
-import { FaPython } from 'react-icons/fa';
-import { FaLinux } from 'react-icons/fa';
-import { FaGit } from 'react-icons/fa';
-import { FaPhp } from 'react-icons/fa';
 import { FaJs } from 'react-icons/fa';
 import { motion } from "framer-motion";
+import django from "../assets/django.png";
+import cpp from "../assets/cpp.png";
+import git from "../assets/git.png";
+import sql from "../assets/sql.png";
 const iconVariants = (duration) => ({
     initial: { y: -10 },
     animate: {
@@ -42,7 +41,7 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaPython className="text-7xl text-blue-900" />
+                    <img src={django} alt="" className="text-7xl text-cyan-400" style={{height: "80px"}} />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(1.6)}
@@ -56,21 +55,21 @@ const Technologies = () => {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaLinux className="text-7xl text-white" />
+                    <img src={cpp} alt="" className="text-7xl text-cyan-400" style={{height: "80px"}} />
                 </motion.div>
                 <motion.div
-                    variants={iconVariants(19)}
+                    variants={iconVariants(2.3)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaPhp className="text-7xl text-sky-700" />
+                    <img src={sql} alt="" className="text-7xl text-cyan-400" style={{height: "80px"}} />
                 </motion.div>
                 <motion.div
                     variants={iconVariants(1.8)}
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaGit className="text-7xl text-green-600" />
+                    <img src={git} alt="" className="text-7xl text-cyan-400" style={{height: "80px"}} />
                 </motion.div>
             </motion.div>
         </div>
