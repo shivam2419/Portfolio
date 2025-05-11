@@ -2,5 +2,8 @@
     #about-right {
         display: none;
     }
-
+    #username {
+        font-size: 45px;
+        letter-spacing: 2px;
+    }
 }

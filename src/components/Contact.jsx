@@ -14,12 +14,9 @@ const Contact = () => {
           initial={{ opacity: 0, x: -100 }}
           transition={{ duration: 1 }}
           className="my-4 ">{CONTACT.address}</motion.p>
-        <motion.p
-          whileInView={{ opacity: 1, x: 0 }}
-          initial={{ opacity: 0, x: 100 }}
-          transition={{ duration: 1 }}
-          className="my-4"> {CONTACT.phoneNo}</motion.p>
         <a href="" className="border-b">{CONTACT.email}</a>
+        <br /><br />
+        <a href="https://drive.google.com/file/d/1nZrcsA1YE01Qk6-7W9NllUCu12-mTTsJ/view?usp=sharing" target="_blank" className="resume" id="resume">Get Resume</a>
       </div>
     </div>
   )
