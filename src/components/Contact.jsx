@@ -16,7 +16,7 @@ const Contact = () => {
           className="my-4 ">{CONTACT.address}</motion.p>
         <a href="" className="border-b">{CONTACT.email}</a>
         <br /><br />
-        <a href="https://drive.google.com/file/d/1nZrcsA1YE01Qk6-7W9NllUCu12-mTTsJ/view?usp=sharing" target="_blank" className="resume" id="resume">Get Resume</a>
+        <a href="https://drive.google.com/file/d/14Ri2AtHu2DoDn8ixwUgzcztupec9suJu/view?usp=drive_link" target="_blank" className="resume" id="resume">Get Resume</a>
       </div>
     </div>
   )

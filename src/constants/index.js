@@ -1,7 +1,8 @@
 import project1 from "../assets/projects/project-1.jpg";
-import project2 from "../assets/projects/project-2.jpeg";
 import project3 from "../assets/projects/project-3.webp";
 import project4 from "../assets/projects/project-4.jpeg";
+import project2 from "../assets/projects/job-portal-image-dlt.jpeg";
+import internship_image from "../assets/projects/project-2.jpeg";
 
 export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 3 years of hands-on experience, I have honed my skills in front-end technology like React, as well as back-end technologies like Django, MySQL, and SQlite. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
 
@@ -13,7 +14,9 @@ export const EXPERIENCES = [
     role: "Web Developer",
     company: "NSIC",
     description: `Led a team in developing and maintaining web applications using Html, Css, JavaScript & Php. Implemented RESTful APIs and integrated with MySQL database. Collaborated with stakeholders to define project requirements and timelines.`,
+    link : "https://github.com/shivam2419/Attendance-management-system-",
     technologies: ["Javascript", "Php", "API's", "MySQL"],
+    image: internship_image,
   },
 ];
 
@@ -24,15 +27,15 @@ export const PROJECTS = [
     description:
       "A fully functional scrap management website with features like scrap pickup booking, educational content, user authentication, scrap classification using ML and lot more...",
     link: "https://scrapbridge.vercel.app/" ,
-    technologies: ["Javascript", "Django", "API's", "ML"],
+    technologies: ["React.js", "Django", "API's", "Deep learning"],
   },
   {
-    title: "Attendence Management system Module",
+    title: "JobNector",
     image: project2,
     description:
-      "An application for managing attendance of students, with features such as user authentication, assignment, and attendance marking.",
-    link: "https://github.com/shivam2419/Attendance-management-system-" ,
-    technologies: ["Javascript", "Php","MySQL", "API's"],
+      "Jobnector is a full-stack job portal I developed using Django and React, aimed at connecting recruiters and candidates efficiently.",
+    link: "https://jobnector.vercel.app/" ,
+    technologies: ["Django", "React.js","SQLite", "REST API"],
   },
   {
     title: "Portfolio Website",

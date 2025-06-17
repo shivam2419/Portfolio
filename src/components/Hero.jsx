@@ -49,7 +49,7 @@ const Hero = () => {
         </div>
         <div className="fixed bottom-4 right-4 z-50 group">
             <a
-              href="https://drive.google.com/file/d/1nZrcsA1YE01Qk6-7W9NllUCu12-mTTsJ/view?usp=sharing"
+              href="https://drive.google.com/file/d/14Ri2AtHu2DoDn8ixwUgzcztupec9suJu/view?usp=drive_link"
               target="_blank"
               rel="noopener noreferrer"
             >
